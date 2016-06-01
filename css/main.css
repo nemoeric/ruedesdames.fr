@@ -22,8 +22,14 @@ h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, sma
   font-family: 'Montserrat', sans-serif;
 }
 
+p, h3 {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+
 p, .lead {
-	font-family: gotham/*'Raleway', sans-serif;*/
+	font-family: gotham, sans-serif;
+	font-weight: lighter;
 }
 
 h1 {
@@ -43,12 +49,11 @@ h2 {
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 30px;
-  letter-spacing: 0px;
   color: white;
-  font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
+  font-family: gotham, sans-serif;
 }
 
 .lead {
@@ -62,7 +67,7 @@ p {
   font-size: 17px;
   line-height: 22px;
   color: white;
-  font-weight: 400;
+/*  font-weight: 400; */
 }
 
 /*------------------Utilities---------------------*/
@@ -291,17 +296,17 @@ a:hover, a:focus {
    ========================================================================== */
 
 #main-info{
-  background: url(../img/boy.png) no-repeat center center;
+  background: url(../img/boy.jpg) no-repeat center center;
   background-size:cover;
 }
 
 #main-info1{
-  background: url(../img/conceptstore1.jpg) no-repeat center center fixed;
+  background: url(../img/conceptstore11.jpg) no-repeat center center fixed;
   background-size:cover;
 }
 
 .col-sm-4{
-  background-color: rgba(0,0,0,0.3);
+/*  background-color: rgba(0,0,0,0.3);*/
   letter-spacing: 2px;
 }
 
@@ -676,6 +681,12 @@ footer {
       background-attachment: scroll;
   }
 
+.col-sm-4{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
 }
 
 
@@ -686,10 +697,14 @@ footer {
       background-attachment: scroll;
   }
   
+  
+  
 .col-sm-4{
   width:30%;
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-left: 60%;
+  margin-right: 10%;
+ /* text-align: justify; */
+ /*   text-justify: inter-word; */
 }
 
 }
